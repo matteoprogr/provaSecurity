@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Sicurezza
+  data:
+    mongodb:
+      uri: mongodb://root:root@localhost:27017/MongoSecurity?authSource=admin
+      auto-index-creation: true
